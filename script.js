@@ -2,7 +2,7 @@
 
 function palindrome(str){
 
-	let n = str.toLowerCase()
+	let n = str.toLowerCase().split(' ').join(' ')
 	let N = n.split(' ').reverse().join(' ')
 	return n == N
 
